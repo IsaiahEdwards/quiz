@@ -28,16 +28,19 @@ h1{
 
 }
 
-#time{
+#timer{
     position: relative;
-    bottom: 220px;
+    bottom: 800px;
+    left: 35%;
+    font-size: 32px;
 }
+
 
 .btn{
     position: relative;
     top: 90%;
     font-size: 48px;
-    
+    background-color: red;
     height: 100px;
     border-radius: 12px;
     border: 2px solid black;
@@ -52,23 +55,8 @@ h1{
   grid-row-gap: 10px;
 }
 
-#btn1{
-    background-color: blue;
-}
 
-#btn2{
-    background-color: orange;
-}
-
-#btn3{
-    background-color: red;
-}
-
-#btn4{
-    background-color: purple;
-}
-
-#btn4:active, #btn3:active, #btn2:active, #btn1:active, #start-button, #next-button {
+.btn:active {
     background-color: gold;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -90,6 +78,37 @@ h1{
 #next-button{
     background-color: yellow;
     position: absolute;
-    top: 20%;
-    right: 5%;
+    top: 80%;
+    right: 45%;
+    width: 100px;
+    height: 50px;
 }
+
+#highscore{
+    position: relative;
+    top: 10%;
+    background-color: white;
+    height: 500px;
+    width: 800px;
+}
+#score{
+    position: absolute;
+    right: 50%;
+    font-size: 30px;
+}
+
+#name{
+    font-size: 30px;
+    position: absolute;
+    background-color: blue;
+}
+#save{
+    background-color: green;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.hide {
+    display: none;
+  }
